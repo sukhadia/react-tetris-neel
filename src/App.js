@@ -65,6 +65,7 @@ export default function App() {
   useEffect(() => {}, [grid]);
   return (
     <>
+      <p>Click on the grid below to drop like Tetris.</p>
       <div className="tetris__grid" onClick={e => drop()}>
         {grid?.map((row, x) => (
           <div key={`row_${x}`} className="tetris__grid__row">
