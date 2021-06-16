@@ -1,6 +1,5 @@
 .tetris__grid {
   display: flex;
-  cursor: pointer;
 }
 
 .tetris__grid__col {
